@@ -3,8 +3,8 @@
 % point and click debugging is disabled
 #(ly:set-option 'point-and-click #f)
 \header {
-	title = "Jesús Amigo"
-	tagline = "Created using Rosegarden 1.7.3 and LilyPond"
+	title = "Jesús amigo"
+	tagline = "Coro Juvenil San Juan Bosco"
 }
 #(set-global-staff-size 20)
 #(set-default-paper-size "letter")
