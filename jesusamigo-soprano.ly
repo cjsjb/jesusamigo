@@ -5,6 +5,7 @@
 \header {
 	title = "Jesús amigo"
 	tagline = "Coro Juvenil San Juan Bosco"
+	instrument = "Soprano"
 }
 #(set-global-staff-size 20)
 #(set-default-paper-size "letter")
