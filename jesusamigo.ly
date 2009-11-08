@@ -15,6 +15,8 @@ global = {
 globalTempo = {
     \tempo 4 = 65  \skip 2*106 
 }
+\include "jesusamigo-acordes.def"
+\include "jesusamigo-guitarra.def"
 \score {
 	\new StaffGroup <<
 		% force offset of colliding notes in chords:
