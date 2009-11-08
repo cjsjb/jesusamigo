@@ -29,9 +29,6 @@ globalTempo = {
 	>> % notes
 
 	\layout {
-		\context {
-			\RemoveEmptyStaffContext
-		}
 	}
 
 } % score

@@ -10,7 +10,11 @@
 #(set-default-paper-size "letter")
 global = { 
     \time 2/4
-    \skip 2*106  %% 1-106
+	\skip 2*46	%% 1-46
+	\break
+	\skip 2*8	%% violin
+	\break
+	\skip 2*52
 }
 globalTempo = {
     \tempo 4 = 65  \skip 2*106 
@@ -30,9 +34,7 @@ globalTempo = {
 	>> % notes
 
 	\layout {
-		\context {
-			\RemoveEmptyStaffContext
-		}
+		\context { \RemoveEmptyStaffContext }
 	}
 
 } % score
