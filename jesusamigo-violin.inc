@@ -8,7 +8,9 @@
 	\context Voice = "voice 3" {
 		\override Voice.TextScript #'padding = #2.0
 		\override MultiMeasureRest #'expand-limit = 1
-		%\once \override Staff.TimeSignature #'style = #'() \time 2/4
+
+		\clef "treble"
+		\key a \minor
 
 		% intro
 		r8 c'' b' c''  |
