@@ -28,13 +28,15 @@ globalTempo = {
 \include "jesusamigo-acordes.def"
 \include "jesusamigo-guitarra.def"
 \score {
-	\new StaffGroup <<
+	<<
 		% force offset of colliding notes in chords:
 		\override Score.NoteColumn #'force-hshift = #1.0
 
 		\include "jesusamigo-acordes-bm.inc"
 		%\include "jesusamigo-acordes.inc"
-		\transpose a b { \include "jesusamigo-soprano.inc" }
+		\new StaffGroup <<
+			\transpose a b { \include "jesusamigo-soprano.inc" }
+		>>
 		\transpose a b { \include "jesusamigo-violin.inc" }
 		%\include "jesusamigo-guitarra-bm.inc"
 
