@@ -133,7 +133,7 @@
 		\bar "|."
 	} % Voice
 
-	\lyricsto "voice 1" \new Lyrics \lyricmode {
+	\new Lyrics \lyricsto "voice 1" {
 		Hoy te quie -- ro con -- tar, Je -- sús a -- mi -- go,
 		que con -- ti -- "go es" -- toy fe -- liz.
 
