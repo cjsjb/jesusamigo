@@ -35,7 +35,7 @@ globalTempo = {
 		\include "jesusamigo-acordes.inc"
 		\include "jesusamigo-soprano.inc"
 		\include "jesusamigo-violin.inc"
-		\include "jesusamigo-guitarra.inc"
+		%\include "jesusamigo-guitarra.inc"
 
 	>> % notes
 
